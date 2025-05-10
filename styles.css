@@ -1,92 +1,100 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
 /* Reset and base styles */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* Body uses Roboto by default */
 body {
-  font-family: 'Orbitron', sans-serif;
-  background-color: #ffffff;
-  color: #000000;
-  display: flex;
-  justify-content: center;
-  padding: 40px 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
 }
 
-/* Container */
+/* Main container */
 .container {
-  width: 960px;
-  background-color: #f0f0f0;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  overflow: hidden;
+    width: 960px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
 }
 
-/* Header */
+/* Green header */
 .header {
-  background-color: #32cd32; /* Green */
-  padding: 25px 40px 70px 40px;
-  position: relative;
+    background-color: #32cd32;
+    padding: 25px 40px 70px 40px;
+    position: relative;
+    font-family: 'Orbitron', sans-serif;
 }
 
-/* Logo */
+/* Logo text */
 .logo {
-  font-size: 26px;
-  font-weight: 700;
-  color: white;
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
 }
 
-/* Navigation */
+/* Navigation links */
 .nav {
-  position: absolute;
-  bottom: 20px;
-  left: 40px;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
 }
 
 .nav a {
-  font-size: 15px;
-  font-weight: 400;
-  margin-right: 20px;
-  color: white;
-  text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .nav a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
-/* Content */
+/* Page content area */
 .content {
-  padding: 40px;
+    padding: 40px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .content h2 {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .content p {
-  line-height: 1.6;
+    line-height: 1.6;
 }
 
-/* Download Link */
+/* Green download button */
 .download-link {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px 24px;
-  background-color: #32cd32;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 16px;
-  border-radius: 4px;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #32cd32;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 4px;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .download-link:hover {
-  background-color: #28a428;
+    background-color: #28a428;
 }
 
-/* Bottom Green Banner */
+/* Bottom banner strip */
 .bottom-banner {
-  height: 20px;
-  background-color: #32cd32;
+    height: 20px;
+    background-color: #32cd32;
 }
