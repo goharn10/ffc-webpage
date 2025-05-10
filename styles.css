@@ -17,7 +17,7 @@ body {
 /* Container to center content */
 .container {
   background-color: #f0f0f0;
-  width: 800px;
+  width: 960px;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
   overflow: hidden;
 }
@@ -25,10 +25,8 @@ body {
 /* Header styles */
 .header {
   background-color: #32cd32; /* Lime green */
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding: 20px 40px;
+  position: relative;
 }
 
 .logo {
@@ -38,7 +36,12 @@ body {
   color: #ffffff;
 }
 
-/* Navigation styles */
+.nav {
+  position: absolute;
+  bottom: 10px;
+  right: 40px;
+}
+
 .nav a {
   color: #ffffff;
   text-decoration: none;
@@ -63,8 +66,8 @@ body {
   line-height: 1.6;
 }
 
-/* Download button styles */
-.download-button {
+/* Download link styles */
+.download-link {
   display: inline-block;
   margin-top: 20px;
   padding: 12px 24px;
@@ -74,6 +77,6 @@ body {
   font-weight: bold;
 }
 
-.download-button:hover {
+.download-link:hover {
   background-color: #28a428;
 }
