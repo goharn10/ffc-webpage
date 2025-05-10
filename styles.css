@@ -16,7 +16,7 @@ body {
 
 /* Container to center content */
 .container {
-  background-color: #ffffff;
+  background-color: #f0f0f0; /* Light gray background */
   width: 80%;
   max-width: 1000px;
   box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Drop shadow */
@@ -26,9 +26,6 @@ body {
 
 /* Header styles */
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-color: #1e1e1e;
   padding: 20px 40px;
 }
@@ -37,17 +34,6 @@ body {
   font-size: 24px;
   font-weight: bold;
   color: #ffffff;
-}
-
-.nav a {
-  margin-left: 20px;
-  text-decoration: none;
-  color: #ffffff;
-  font-weight: bold;
-}
-
-.nav a:hover {
-  text-decoration: underline;
 }
 
 /* Banner styles */
@@ -90,4 +76,3 @@ body {
 .download-button:hover {
   background-color: #28a428;
 }
-
